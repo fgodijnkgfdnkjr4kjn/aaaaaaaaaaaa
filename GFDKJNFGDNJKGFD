@@ -18,7 +18,7 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://s-media-cache-ak0.pinimg.com/originals/3a/b1/2a/3ab12a52650948660ba935ddf3d202e1.gif);
+  --dplus-backdrop: url(https://i.pinimg.com/originals/67/28/85/6728851b5b6abc58fa88e95e2ed4a86a.gif);
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 0;
@@ -26,7 +26,7 @@
   --dplus-accent-color-lightness: 0%;
 
 /* Foreground color: For things like text and icons. */
-  --dplus-foreground-color-hue-base: 150;
+  --dplus-foreground-color-hue-base: 100;
   --dplus-foreground-color-hue-links: 220;
   --dplus-foreground-color-saturation-amount: 1;
   --dplus-foreground-color-lightness-amount: 1;
@@ -60,9 +60,9 @@
 :root {
 /* Fonts */
 /* You can use any installed font on your device. */
-  --dplus-font-ui: 'RubikGlitch-Regular';
-  --dplus-font-body: 'RubikGlitch';
-  --dplus-font-header: 'RubikGlitch';
+  --dplus-font-ui: 'Rubik Glitch';
+  --dplus-font-body: 'Rubik Glitch';
+  --dplus-font-header: 'Rubik Glitch';
 
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
