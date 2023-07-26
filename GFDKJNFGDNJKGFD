@@ -21,7 +21,7 @@
   --dplus-backdrop: url(https://storage.googleapis.com/gtspirit/uploads/2018/02/McLaren-F1-GTR-Longtail-4.jpg);
 
 /* Accent color, used to decorate the UI with colors. */
-  --dplus-accent-color-hue: 0;
+  --dplus-accent-color-hue: 150;
   --dplus-accent-color-saturation: 0%;
   --dplus-accent-color-lightness: 0%;
 
