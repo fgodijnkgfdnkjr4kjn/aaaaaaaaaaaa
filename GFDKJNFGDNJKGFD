@@ -61,8 +61,8 @@
 /* Fonts */
 /* You can use any installed font on your device. */
   --dplus-font-ui: 'RubikGlitch-Regular';
-  --dplus-font-body: 'RubikGlitch';
-  --dplus-font-header: 'RubikGlitch';
+  --dplus-font-body: 'RubikGlitch-Regular';
+  --dplus-font-header: 'RubikGlitch-Regular';
 
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
