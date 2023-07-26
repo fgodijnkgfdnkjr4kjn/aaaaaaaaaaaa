@@ -33,9 +33,9 @@
 
 /* Background color: Covers the backdrop so the app is easier to read. */
   --dplus-background-color-hue: 0;
-  --dplus-background-color-saturation-amount: 0.2;
+  --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 0;
-  --dplus-background-color-alpha: 0.98;
+  --dplus-background-color-alpha: 0.2;
 }
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
