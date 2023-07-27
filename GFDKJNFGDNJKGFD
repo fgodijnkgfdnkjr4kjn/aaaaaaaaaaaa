@@ -18,7 +18,7 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://storage.googleapis.com/gtspirit/uploads/2018/02/McLaren-F1-GTR-Longtail-4.jpg);
+  --dplus-backdrop: url(https://ag-spots-2017.o.auroraobjects.eu/2017/05/15/other/2880-1800-crop-ferrari-f40-c801615052017193833_1.jpg);
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 150;
@@ -26,15 +26,15 @@
   --dplus-accent-color-lightness: 100%;
 
 /* Foreground color: For things like text and icons. */
-  --dplus-foreground-color-hue-base: 432;
+  --dplus-foreground-color-hue-base: 100;
   --dplus-foreground-color-hue-links: 565;
-  --dplus-foreground-color-saturation-amount: 0;
-  --dplus-foreground-color-lightness-amount: 0;
+  --dplus-foreground-color-saturation-amount: 1000;
+  --dplus-foreground-color-lightness-amount:  0.8;
 
 /* Background color: Covers the backdrop so the app is easier to read. */
-  --dplus-background-color-hue: 0;
-  --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-hue: 54;
+  --dplus-background-color-saturation-amount: 100;
+  --dplus-background-color-lightness-amount: 13;
   --dplus-background-color-alpha: 0;
 }
 
@@ -46,7 +46,7 @@
   --dplus-accent-color-saturation: 0%;
   --dplus-accent-color-lightness: 31%;
   
-  --dplus-foreground-color-hue-base: 210;
+  --dplus-foreground-color-hue-base: 2;
   --dplus-foreground-color-hue-links: 197;
   --dplus-foreground-color-saturation-amount: 1;
   --dplus-foreground-color-lightness-amount: 1;
@@ -60,9 +60,9 @@
 :root {
 /* Fonts */
 /* You can use any installed font on your device. */
-  --dplus-font-ui: 'Rubik Viynyl';
-  --dplus-font-body: 'Rubik Viynyl';
-  --dplus-font-header: 'Rubik Viynyl';
+  --dplus-font-ui: 'Bungee Outline';
+  --dplus-font-body: 'Bungee Outline';
+  --dplus-font-header: 'Bungee Outline';
 
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
@@ -86,6 +86,6 @@ Set avatar/server radius to 50% to make them circular.
 --dplus-icon-server-list: 32px;
 
 /* The Home icon on the top left */
---dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
+--dplus-icon-home-dark: url(https://vignette.wikia.nocookie.net/hypercarss/images/f/f9/A3EE088C-9367-45BA-B625-70A0AAFD2595.jpeg/revision/latest?cb=20180410121148);
 --dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
 }
