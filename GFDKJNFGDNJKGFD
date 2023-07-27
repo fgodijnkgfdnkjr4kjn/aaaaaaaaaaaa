@@ -18,7 +18,7 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://storage.googleapis.com/gtspirit/uploads/2018/02/McLaren-F1-GTR-Longtail-4.jpg);
+  --dplus-backdrop: url(https://media.discordapp.net/attachments/1133082995981549720/1133909432531685416/258201-Mazda-MX-5-miata-Stance-low-car.jpg?width=1246&height=701);
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 150;
@@ -27,9 +27,9 @@
 
 /* Foreground color: For things like text and icons. */
   --dplus-foreground-color-hue-base: 432;
-  --dplus-foreground-color-hue-links: 565;
-  --dplus-foreground-color-saturation-amount: 0;
-  --dplus-foreground-color-lightness-amount: 0;
+  --dplus-foreground-color-hue-links: 179;
+  --dplus-foreground-color-saturation-amount: 3;
+  --dplus-foreground-color-lightness-amount: 3;
 
 /* Background color: Covers the backdrop so the app is easier to read. */
   --dplus-background-color-hue: 0;
@@ -60,9 +60,9 @@
 :root {
 /* Fonts */
 /* You can use any installed font on your device. */
-  --dplus-font-ui: 'Rubik Viynyl';
-  --dplus-font-body: 'Rubik Viynyl';
-  --dplus-font-header: 'Rubik Viynyl';
+  --dplus-font-ui: 'Playfair Display';
+  --dplus-font-body: 'Playfair Display';
+  --dplus-font-header: 'Playfair Display';
 
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
