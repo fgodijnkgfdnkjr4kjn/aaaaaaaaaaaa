@@ -26,10 +26,19 @@
   --dplus-accent-color-lightness: 100%;
 
 /* Foreground color: For things like text and icons. */
-  --dplus-foreground-color-hue-base: 432;
-  --dplus-foreground-color-hue-links: 500;
-  --dplus-foreground-color-saturation-amount: 1;
-  --dplus-foreground-color-lightness-amount: 1;
+:root {
+    --header-primary: red;
+    --header-secondary: red;
+    --text-normal: red;
+    --text-muted: red;
+    --text-link: red;
+    --channels-default: red;
+    --interactive-normal: red;
+    --interactive-hover: red;
+    --interactive-active: red;
+    --interactive-muted: red;
+    --textbox-markdown-syntax: red;
+}
 
 /* Background color: Covers the backdrop so the app is easier to read. */
   --dplus-background-color-hue: 0;
