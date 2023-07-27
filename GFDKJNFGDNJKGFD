@@ -11,31 +11,31 @@
  * @updateUrl https://plusinsta.github.io/discord-plus/DiscordPlus.theme.css
  * @invite 2Jwh2nS
 */
-@import url(https://media.giphy.com/media/iJDLBX5GY8niCpZYkR/giphy.gif);
+@import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
 
 /* I've commented most of these values so you can change them yourself. If you're having trouble, or you want to do more than what these values allow for, a volunteer might be able to help you in my server. */
 
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://i.pinimg.com/originals/67/28/85/6728851b5b6abc58fa88e95e2ed4a86a.gif);
+  --dplus-backdrop: url(https://storage.googleapis.com/gtspirit/uploads/2018/02/McLaren-F1-GTR-Longtail-4.jpg);
 
 /* Accent color, used to decorate the UI with colors. */
-  --dplus-accent-color-hue: 0;
-  --dplus-accent-color-saturation: 0%;
-  --dplus-accent-color-lightness: 0%;
+  --dplus-accent-color-hue: 150;
+  --dplus-accent-color-saturation: 100%;
+  --dplus-accent-color-lightness: 100%;
 
 /* Foreground color: For things like text and icons. */
-  --dplus-foreground-color-hue-base: 100;
-  --dplus-foreground-color-hue-links: 220;
-  --dplus-foreground-color-saturation-amount: 1;
-  --dplus-foreground-color-lightness-amount: 1;
+  --dplus-foreground-color-hue-base: 230;
+  --dplus-foreground-color-hue-links: 565;
+  --dplus-foreground-color-saturation-amount: 50;
+  --dplus-foreground-color-lightness-amount:  0.4;
 
 /* Background color: Covers the backdrop so the app is easier to read. */
-  --dplus-background-color-hue: 0;
+  --dplus-background-color-hue: 54;
   --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 0;
-  --dplus-background-color-alpha: 0.97;
+  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-alpha: 0;
 }
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
@@ -49,10 +49,10 @@
   --dplus-foreground-color-hue-base: 210;
   --dplus-foreground-color-hue-links: 197;
   --dplus-foreground-color-saturation-amount: 1;
-  --dplus-foreground-color-lightness-amount: 0;
+  --dplus-foreground-color-lightness-amount: 1;
 
   --dplus-background-color-hue: 320;
-  --dplus-background-color-saturation-amount: 0;
+  --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 1;
   --dplus-background-color-alpha: 0.8;
 }
@@ -60,9 +60,9 @@
 :root {
 /* Fonts */
 /* You can use any installed font on your device. */
-  --dplus-font-ui: 'Rubik Glitch';
-  --dplus-font-body: 'Rubik Glitch';
-  --dplus-font-header: 'Rubik Glitch';
+  --dplus-font-ui: 'Rubik Viynyl';
+  --dplus-font-body: 'Rubik Viynyl';
+  --dplus-font-header: 'Rubik Viynyl';
 
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
